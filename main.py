@@ -24,7 +24,6 @@ try:
 		for line in filestream:
 			br.open('https://www.netflix.com/br/login')
 			currentline = line.split(':')
-			print('currentline : ', currentline)
 			# print('br before : ', br)
 			br.select_form(nr=0)
 			# print('br after : ', br)
